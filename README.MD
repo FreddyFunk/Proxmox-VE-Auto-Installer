@@ -36,7 +36,7 @@ This project provides an easy way to build a patched Proxmox VE auto installer I
 ```toml
 [disk-setup]
 filesystem = "zfs"
-zfs.raid = "raid1"
+zfs.raid = "raid0"
 disk_list = ["mmcblk0"]
 ```
 

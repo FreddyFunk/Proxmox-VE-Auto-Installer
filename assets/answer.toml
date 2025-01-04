@@ -13,4 +13,6 @@ source = "from-dhcp"
 filesystem = "zfs"
 zfs.raid = "raid1"
 disk_list = ["sda", "sdb"]
-# ZimaBoard eMMC: disk_list = ["mmcblk0"]
+# ZimaBoard eMMC:
+# zfs.raid = "raid0"
+# disk_list = ["mmcblk0"]
