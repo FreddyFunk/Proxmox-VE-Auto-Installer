@@ -1,0 +1,15 @@
+[global]
+keyboard = "en-us"
+country = "de"
+fqdn = "pveauto.testinstall"
+mailto = "mail@no.invalid"
+timezone = "Europe/Berlin"
+root_password = "123456"
+
+[network]
+source = "from-dhcp"
+
+[disk-setup]
+filesystem = "zfs"
+zfs.raid = "raid0"
+disk_list = ["mmcblk0"]
